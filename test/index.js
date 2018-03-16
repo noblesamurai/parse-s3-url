@@ -9,6 +9,11 @@ describe('parseS3Url', function () {
     expect(parseS3Url('http://not/an/s3.url')).to.equal(false);
   });
 
+  it('should return false on null/invalid', function () {
+    expect(parseS3Url('h')).to.equal(false);
+    expect(parseS3Url(null)).to.equal(false);
+  });
+
   it('should split out bucket, key if it is', function () {
     expect(parseS3Url(testUrl)).to.have.keys(['bucket', 'key']);
   });
