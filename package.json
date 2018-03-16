@@ -1,7 +1,7 @@
 {
   "name": "parse-s3-url",
   "description": "Re-sign potentially already signed S3 urls.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Tim Allen <tim@noblesamurai.com>",
   "license": "BSD",
   "main": "src/index.js",
