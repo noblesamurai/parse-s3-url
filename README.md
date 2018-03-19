@@ -1,4 +1,4 @@
-# parse-s3-url [![Build Status](https://secure.travis-ci.org/noblesamurai/parse-s3-url.png?branch=master)](http://travis-ci.org/noblesamurai/parse-s3-url) [![NPM version](https://badge-me.herokuapp.com/api/npm/parse-s3-url.png)](http://badges.enytc.com/for/npm/parse-s3-url)
+# parse-s3-url [![Build Status](https://secure.travis-ci.org/noblesamurai/parse-s3-url.png?branch=master)](http://travis-ci.org/noblesamurai/parse-s3-url) [![NPM version](https://badge.fury.io/js/parse-s3-url.svg)](https://badge.fury.io/for/js/parse-s3-url)
 
 > Parse an S3 URL into bucket, key.
 
