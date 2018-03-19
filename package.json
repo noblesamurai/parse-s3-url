@@ -12,13 +12,13 @@
     "watch": "mocha --recursive --watch test",
     "docs": "jsdoc2md index.js"
   },
-  "homepage": "https://github.com/noblesamurai/re-sign-s3",
+  "homepage": "https://github.com/noblesamurai/parse-s3-url",
   "repository": {
     "type": "git",
-    "url": "git://github.com/noblesamurai/re-sign-s3.git"
+    "url": "git://github.com/noblesamurai/parse-s3-url.git"
   },
   "bugs": {
-    "url": "https://github.com/noblesamurai/re-sign-s3/issues"
+    "url": "https://github.com/noblesamurai/parse-s3-url/issues"
   },
   "engines": {
     "node": "6.x",
