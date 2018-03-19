@@ -1,32 +1,23 @@
-# Re-sign-s3 [![Build Status](https://secure.travis-ci.org/noblesamurai/re-sign-s3.png?branch=master)](http://travis-ci.org/noblesamurai/re-sign-s3) [![NPM version](https://badge-me.herokuapp.com/api/npm/re-sign-s3.png)](http://badges.enytc.com/for/npm/re-sign-s3)
+# parse-s3-url [![Build Status](https://secure.travis-ci.org/noblesamurai/parse-s3-url.png?branch=master)](http://travis-ci.org/noblesamurai/parse-s3-url) [![NPM version](https://badge-me.herokuapp.com/api/npm/parse-s3-url.png)](http://badges.enytc.com/for/npm/parse-s3-url)
 
-> Re-sign potentially already signed S3 urls.
+> Parse an S3 URL into bucket, key.
 
-## Purpose
-- What problem does this module solve? At least a few sentences.
-PLEASE_FILL_IN_HERE
 
 ## Usage
 
 ```js
-// Several examples of usage.
-// Usually copying and pasting code from the tests and making the code standalone suffices.
-// PLEASE_FILL_IN_HERE
+const parseS3Url = require('parse-s3-url');
+
+parseS3Url('http://not/one'); //false
+parseS3Url('https://s3.amazonaws.com/mybucket/mykey'); // { bucket: 'mybucket', key: 'mykey' }
 ```
-
-## API
-
-PLEASE_FILL_IN_HERE
-
-Note: To regenerate this section from the jsdoc run `npm run docs` and paste
-the output above.
 
 ## Installation
 
 This module is installed via npm:
 
 ``` bash
-$ npm install re-sign-s3
+$ npm install parse-s3-url
 ```
 ## License
 
