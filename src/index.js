@@ -7,7 +7,7 @@ module.exports = function parseS3Url (url) {
     const regex = /^\/([^/]+)\/(.*)$/;
     const match = u.pathname.match(regex);
     if (!match) return false;
-    const [ , bucket, key ] = match;
+    const [, bucket, key] = match;
     return { bucket, key: decodeURIComponent(key) };
   } catch (_err) {
     return false;
