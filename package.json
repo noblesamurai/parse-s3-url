@@ -20,10 +20,6 @@
   "bugs": {
     "url": "https://github.com/noblesamurai/parse-s3-url/issues"
   },
-  "engines": {
-    "node": "^8 || ^10 || ^12",
-    "npm": "6.x"
-  },
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
