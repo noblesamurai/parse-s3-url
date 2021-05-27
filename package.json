@@ -1,7 +1,7 @@
 {
   "name": "parse-s3-url",
   "description": "Re-sign potentially already signed S3 urls.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Tim Allen <tim@noblesamurai.com>",
   "license": "BSD",
   "main": "src/index.js",
@@ -19,10 +19,6 @@
   },
   "bugs": {
     "url": "https://github.com/noblesamurai/parse-s3-url/issues"
-  },
-  "engines": {
-    "node": "^8 || ^10 || ^12",
-    "npm": "6.x"
   },
   "dependencies": {},
   "devDependencies": {
