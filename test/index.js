@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const testUrl = 'https://s3.amazonaws.com/contentsamurai.com/transcoded/1-1/uploads/users/848384/videos/a12ee30e-7267-4da8-b5d8-899dc728f902/outr-drip%20space.mp4?AWSAccessKeyId=&Expires=1519259943&Signature=BHjeZc49yH9EBwg3BuZDuHh%2BW3g%3D';
+const testUrl = 'https://s3.amazonaws.com/test/outr-drip%20space.mp4?AWSAccessKeyId=KEY&Expires=123&Signature=SIG';
 
 const parseS3Url = require('..');
 
@@ -19,6 +19,6 @@ describe('parseS3Url', function () {
   });
 
   it('unescape the key', function () {
-    expect(parseS3Url(testUrl).key).to.equal('transcoded/1-1/uploads/users/848384/videos/a12ee30e-7267-4da8-b5d8-899dc728f902/outr-drip space.mp4');
+    expect(parseS3Url(testUrl).key).to.equal('outr-drip space.mp4');
   });
 });
